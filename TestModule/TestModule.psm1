@@ -1,4 +1,4 @@
-using module "./Class/TestClass.psm1"
+using module "./TestModule/Class/TestClass.psm1"
 
 #Get public and private function definition files.
 $Public  = @( Get-ChildItem -Path $PSScriptRoot\Public\*.ps1 -Recurse -ErrorAction SilentlyContinue )
